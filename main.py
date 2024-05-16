@@ -13,24 +13,15 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # loading the dataset
-local_dataset_path = "E:\\Users\\Ibrahim\\Desktop\\image recognition model\\flower_photos"
+local_dataset_path = "PATH\\flower_photos"
 data_dir = pathlib.Path(local_dataset_path).with_suffix('').resolve()
 
 # Checkpoint_path
-checkpoint_path = "E:\\Users\\ibrahim\\Downloads\\training_checkpoint/cp.weights.h5"
+checkpoint_path = "PATH\\training_checkpoint/cp.weights.h5"
 
 # Specify the local path of the image to classify
-# image_path = "E:\\Users\\Ibrahim\\Desktop\\image recognition model\\flower_photos\daisy\\5547758_eea9edfd54_n.jpg"
-# image_path = "E:\\Users\\ibrahim\\Downloads\\592px-Red_sunflower.jpg"
-# image_path = "E:\\Users\\ibrahim\\Downloads\\sunflower2.jpeg"
-# image_path = "E:\\Users\\Ibrahim\\Desktop\\image recognition model\\flower_photos\\daisy\\5547758_eea9edfd54_n.jpg"
-# image_path = "E:\\Users\\Ibrahim\\Desktop\\image recognition model\\flower_photos\\daisy\\5794835_d15905c7c8_n.jpg"
-# image_path = "E:\\Users\\Ibrahim\\Desktop\\image recognition model\\flower_photos\\daisy\\54377391_15648e8d18.jpg"
-# image_path = "E:\\Users\\Ibrahim\Desktop\\image recognition model\\flower_photos\\roses\\24781114_bc83aa811e_n.jpg"
-# image_path = "E:\\Users\\Ibrahim\Desktop\\image recognition model\\flower_photos\\roses\\218630974_5646dafc63_m.jpg"
-# image_path = "E:\\Users\\Ibrahim\Desktop\\image recognition model\\flower_photos\\roses\\229488796_21ac6ee16d_n.jpg"
-image_path = "E:\\Users\\Ibrahim\Desktop\\image recognition model\\flower_photos\\tulips\\11746548_26b3256922_n.jpg"
-# image_path = "E:\\Users\\Ibrahim\Desktop\\image recognition model\\flower_photos\\tulips\107693873_86021ac4ea_n.jpg"
+
+image_path = "IMAGE_PATH"
 
 
 # # Load images of roses
