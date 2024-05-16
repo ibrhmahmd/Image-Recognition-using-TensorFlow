@@ -30,7 +30,7 @@ The project follows a structured workflow:
     Fine-tune the model and optimize its hyperparameters for better performance.
 
 - Model Deployment and Inference: 
-    Save the trained model to disk and utilize it to classify new images that were not part of the training or validation sets.
+    Save the trained model to disk and utilize it to classify new images that were not part of the training or validation.
 
 The project includes a Jupyter Notebook that provides a detailed walkthrough of each step, along with code snippets, visualizations, and explanations. Additionally,
 it contains terminal commands for installing necessary libraries and downloading the dataset. The README file in the GitHub repository summarizes the project,
